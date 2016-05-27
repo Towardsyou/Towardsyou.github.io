@@ -1,3 +1,10 @@
+---
+title: "test_1"
+permalink: /paper/test/
+excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
+modified: 2016-04-13T15:54:02-04:00
+---
+
 ## This is a remarkable test
 
 *you can *combine* them*
@@ -12,5 +19,5 @@ http://github.com - automatic!
 [GitHub](http://github.com)
 
 As Grace Hopper said:
-> I¡¯ve always been more interested
+> IÂ¡Â¯ve always been more interested
 > in the future than in the past.
