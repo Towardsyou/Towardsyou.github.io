@@ -19,7 +19,6 @@ teaser                   : teaser-1.jpg
 # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-  
 comments:
   provider               : # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
@@ -233,25 +232,23 @@ defaults:
       comments: false
       share: true
       related: true
-  
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-  
-  # _foo
+  # _papers
   - scope:
       path: ""
-      type: foo
+      type: papers
     values:
       layout: single
-  
-  # 
+      author_profile: false
+  # _QE
   - scope:
       path: ""
-      type: portfolio
+      type: QE
     values:
       layout: single
       author_profile: false
