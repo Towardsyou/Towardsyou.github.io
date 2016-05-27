@@ -219,7 +219,7 @@ collections:
   # Ipython Quantitative Economics
   QE:
   output: true
-  permalink: /collection/:path
+  permalink: /collection/:path/
 	
 defaults:
   # _posts
