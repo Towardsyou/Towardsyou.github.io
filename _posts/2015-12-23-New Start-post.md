@@ -1,12 +1,9 @@
 ---
 layout: single
 title: New Start
-description: "I'm really happy to see my github page startit's life! Appreaciate it!"
-modified: 2015-12-23
 tags: [thoughts]
-image:
-  feature: backgroundpicture.jpg
-  credit: from the internet
+header:
+	image: backgroundpicture.jpg
 ---
  
  真的很高兴能够看到自己的GItHub Page在自己的双手下被创造出来，即便它还有很多我不懂的地方，但是暂时的成果已经带给我了足够的乐趣。现在，用开心，填满我的第一篇博文。
