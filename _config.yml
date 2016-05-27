@@ -213,13 +213,13 @@ collections:
   #_papers
   papers:
   output: true
-  parmalink: /:collection/:path
+  parmalink: /:collection/:path/
   
   #_QE
   # Ipython Quantitative Economics
   QE:
   output: true
-  parmalink: /:Quantitative_Economics/:path
+  parmalink: /:collection/:path/
 	
 defaults:
   # _posts
