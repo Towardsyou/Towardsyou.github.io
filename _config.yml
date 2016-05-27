@@ -66,7 +66,7 @@ google_ad_slot           :
 author:
   name             : "Joey M"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Look up into the sky!"
   location         : "Somewhere"
   email            :
   uri              :
@@ -213,7 +213,7 @@ collections:
   #_papers
   papers:
   output: true
-  parmalink:/:collection/:path
+  parmalink: /:collection/:path
   
   #_QE
   # Ipython Quantitative Economics
