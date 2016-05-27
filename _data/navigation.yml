@@ -6,11 +6,14 @@ main:
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/
 
-  - title: "Sample Posts"
+  - title: "Posts"
     url: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
-  - title: "Sample Pages"
+  - title: "QE"
     url: https://mmistakes.github.io/minimal-mistakes/page-archive/
 
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "Collections"
+    url: https://towardsyou.github.io/collection-archive/
+	
+  - title: "Class"
+    url: "http://bayeswhu.github.io/teaching/qe.html"
