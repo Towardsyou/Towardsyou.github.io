@@ -13,7 +13,7 @@ name                     : "MMMMZY"
 description              : "We believe we can foresee the future"
 url                      : "https://towardsyou.github.io" 
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : “papers”
+baseurl                  : “/papers”
 # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : teaser-1.jpg
