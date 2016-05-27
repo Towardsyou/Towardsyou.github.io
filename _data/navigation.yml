@@ -1,16 +1,16 @@
 # main links links
 main:
+  - title: "Posts"
+    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+
+  - title: "QE"
+    url: https://towardsyou.github.io/collection-archive/
+  
+  - title: "Class"
+    url: http://bayeswhu.github.io/teaching/qe.html
+  
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/
-
-  - title: "Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-  - title: "QE"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-  
-  - title: "Class"
-    url: http://bayeswhu.github.io/teaching/qe.html
