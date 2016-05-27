@@ -220,7 +220,7 @@ collections:
   QE:
   output: true
   permalink: /:collection/:path/
-	
+
 defaults:
   # _posts
   - scope:
