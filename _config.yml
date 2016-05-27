@@ -211,14 +211,13 @@ compress_html:
 collections:
   #_papers
   papers:
-  output: true
-  permalink: /:collection/:path/
-  
+    output: true
+    permalink: /:collection/:path/
   #_QE
   # Ipython Quantitative Economics
   QE:
-  output: true
-  permalink: /:collection/:path/
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
