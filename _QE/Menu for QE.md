@@ -18,7 +18,7 @@ modified: 2016-06-18
 [Key 14](https://github.com/Towardsyou/towardsyou.github.io/QE/Lec14_Key)
 
 ## Quiz Chapter 3
-[Quiz Chapter 3](https://github.com/Towardsyou/towardsyou.github.io/QE/Quiz6.6_Chapter_3)
+[Quiz Chapter 3](https://towardsyou.github.io/QE/Quiz6.6_Chapter_3)
 
 ## Quiz Chapter 4
-[Quiz Chapter 4](https://github.com/Towardsyou/towardsyou.github.io/QE/Quiz_Key6_16_Chapter_4)
+[Quiz Chapter 4](https://towardsyou.github.io/QE/Quiz_Key6_16_Chapter_4)
