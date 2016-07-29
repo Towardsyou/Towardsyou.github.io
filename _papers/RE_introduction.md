@@ -8,7 +8,7 @@ modified: 2016-7-29 16:29:36
 # 元字符 matacharacter
 [元字符用法查询](http://bbs.fishc.com/forum.php?mod=viewthread&tid=57691&extra=page%3D1%26filter%3Dtypeid%26typeid%3D403)
 
-. ^ $ * + ? {} [] \ | ()
+. ^ $ * + ? {} [] \ \| ()
 
 ## 方括号  [] 
 制定一个字符类用于存放需要匹配的字符集合
@@ -16,7 +16,7 @@ modified: 2016-7-29 16:29:36
 [abc] = [a-c] 表示匹配a,b,c其中的一个字母。顺序按照ASCⅡ排列
 PS.元字符在方括号中不会触发特殊功能
 
-'\'会剥夺元字符的特殊作用
+'\\'会剥夺元字符的特殊作用
 
 \d = [0-9] \d\d\d 匹配一个三位数
 
@@ -37,7 +37,7 @@ PS.元字符在方括号中不会触发特殊功能
 ## {}重复次数：
  .{2,9} 表示匹配任意字符二到九次
 
-> (([01]?\d?\d|25[0-5]|2[0-4]\d)\.){3}([01]?\d?\d|25[0-5]|2[0-4]\d)'
+> (([01]?\d?\d\|25[0-5]\|2[0-4]\d)\.){3}([01]?\d?\d\|25[0-5]\|2[0-4]\d)'
 
 #### * = [0-+∞] = [0,]
 
@@ -97,7 +97,7 @@ flag：
 
 非捕获组
 
-'''python
+'''javascript
 m = re.match("([abc])+", "abc")
 m.groups()
 ('c',)
@@ -108,7 +108,7 @@ m.groups()
 
 命名组
 
-'''python
+'''javascript
 >>> p = re.compile(r'(?P<word>\b\w+\b)')
 >>> m = p.search( '(((( Lots of punctuation )))' )
 >>> m.group('word')
@@ -126,7 +126,7 @@ m.groups()
 ### re.split() re.sub()的用法
 [Part-6](http://bbs.fishc.com/thread-57362-1-1.html)
 
-'''python
+'''javascript
 p = re.compile( '(blue|white|red)')
 
 p.sub( 'colour', 'blue socks and red shoes')
@@ -138,7 +138,8 @@ p.sub( 'colour', 'blue socks and red shoes', count=1)
 'colour socks and red shoes'
 '''
 
-'''python
+'''javascript
+
 p = re.compile(r'\W+')
 
 p.split('This is a test, short and sweet, of split().')
@@ -181,7 +182,7 @@ re.split('[\W]+', 'Words, words, words.', 1)
 - {} curly braces
 - [] square brackets
 - () parentheses
-- # hash mark
+- \# hash mark
 - + plus sign
 - - minus sign (hyphen)
 - . dot
