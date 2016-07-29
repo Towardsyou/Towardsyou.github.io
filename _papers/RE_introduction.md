@@ -1,6 +1,6 @@
 ---
 title: "RE-Instructions"
-permalink: /paper/test/
+permalink: /paper/re/
 excerpt: "Some conclusions and menu."
 modified: 2016-7-29 16:29:36
 ---
