@@ -72,14 +72,14 @@ a = re.compile(pattern = r'写入待匹配内容'，flags=0)
 - a.findall()
 - a.finditer()
 
-上述四个方法返回一个对象，包含4个关键方法。
+### 上述四个方法返回一个对象，包含4个关键方法。
 - group() 返回匹配的字符串 = group(0) 其中的值代表第几个值组捕获的内容
 - groups()
 - start() 起始位置
 - end()   结束位置
 - span()  (起始位置，结束位置)
 
-flag：
+### flag：
 - ASCII,A         只匹配ASCII字符
 - DOTALL,S        使.匹配一切符号（包括换行符）
 - IGNORECASE,I    不区分大小写
@@ -97,36 +97,36 @@ flag：
 
 非捕获组
 
-'''javascript
+```python
 m = re.match("([abc])+", "abc")
 m.groups()
 ('c',)
 m = re.match("(?:[abc])+", "abc")
 m.groups()
 ()
-'''
+```
 
 命名组
 
-'''javascript
+```javascript
 >>> p = re.compile(r'(?P<word>\b\w+\b)')
 >>> m = p.search( '(((( Lots of punctuation )))' )
 >>> m.group('word')
 'Lots'
 >>> m.group(1)
 'Lots'
-'''
+```
 
 我们要讲解的另一个零宽断言是前向断言，前向断言可以分为前向肯定断言和前向否定断言两种形式。
 
 (?=...)前向肯定断言。如果当前包含的正则表达式（这里以 ... 表示）在当前位置成功匹配，则代表成功，否则失败。一旦该部分正则表达式被匹配引擎尝试过，就不会继续进行匹配了；剩下的模式在此断言开始的地方继续尝试。
 
-(?!...)<p style="line-height:30px;text-indent:2em;text-align:left">前向否定断言。这跟前向肯定断言相反（不匹配则表示成功，匹配表示失败）。</p>
+(?!...)前向否定断言。这跟前向肯定断言相反（不匹配则表示成功，匹配表示失败）。</p>
 
 ### re.split() re.sub()的用法
 [Part-6](http://bbs.fishc.com/thread-57362-1-1.html)
 
-'''javascript
+```javascript
 p = re.compile( '(blue|white|red)')
 
 p.sub( 'colour', 'blue socks and red shoes')
@@ -136,9 +136,9 @@ p.sub( 'colour', 'blue socks and red shoes')
 p.sub( 'colour', 'blue socks and red shoes', count=1)
 
 'colour socks and red shoes'
-'''
+```
 
-'''javascript
+```javascript
 
 p = re.compile(r'\W+')
 
@@ -173,7 +173,7 @@ re.split('([\W]+)', 'Words, words, words.')
 re.split('[\W]+', 'Words, words, words.', 1)
 
 ['Words', 'words, words.']
-'''
+```
 
 - \ backslash
 - ` backtick
