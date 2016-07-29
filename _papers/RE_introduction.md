@@ -1,4 +1,4 @@
-﻿---
+---
 title: "RE-Instructions"
 permalink: /paper/re/
 excerpt: "Some conclusions and menu."
