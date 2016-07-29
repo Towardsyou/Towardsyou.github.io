@@ -1,3 +1,10 @@
+---
+title: "RE-Instructions"
+permalink: /paper/test/
+excerpt: "Some conclusions and menu."
+modified: 2016-7-29 16:29:36
+---
+
 # 元字符 matacharacter
 [元字符用法查询](http://bbs.fishc.com/forum.php?mod=viewthread&tid=57691&extra=page%3D1%26filter%3Dtypeid%26typeid%3D403)
 
