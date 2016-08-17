@@ -177,13 +177,13 @@ re.split('[\W]+', 'Words, words, words.', 1)
 
 - \ backslash
 - ` backtick
-- * asterisk
+- \* asterisk
 - _ underscore
 - {} curly braces
 - [] square brackets
 - () parentheses
 - \# hash mark
-- + plus sign
-- - minus sign (hyphen)
+- \+ plus sign
+- \- minus sign (hyphen)
 - . dot
 - ! exclamation mark
