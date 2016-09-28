@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>在线简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/js/remodal.css">
+    <link rel="stylesheet" href="static/js/remodal-default-theme.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >GXJay</h1>
+                <h4 id="persona-tag" >Python / Web / 机械工程</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">廖XX</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">专科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">广西机电职业技术学院</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2016</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">1817232XXXX</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">helloworld1x@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">gxjay.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/jay1518</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">机械制图</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">数控编程</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">钳工</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">电工</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">机械</label><span class="label-value">挖掘机、机械制图、数控编程、电工、钳工</span></li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">我全都是瞎写的。</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>广西机电职业技术学院 - 机械设计制造专业（专科）2013-2016</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>优泰网络科技－网络销售</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>源正新能源汽车公司－实习生</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.这是我的改动
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">实践项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>基于breakwa11和glzjin的Shadowsocks网站程序</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>数控机床编程及应用</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>计算机辅助工艺工装设计</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </li>
+                    <li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>小学生作文二等奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>曾多次获得东鹏特饮“再来一瓶”奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
