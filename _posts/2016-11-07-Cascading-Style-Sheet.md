@@ -1,3 +1,9 @@
+---
+title: "CSS Note"
+permalink: /paper/cssNote/
+excerpt: "Note about CSS."
+modified: 2016-11-23 09:27:39
+---
 * things added
 
   * css should be added to the head tag by `<link href="styles/style.css" rel="stylesheet" type="text/css">`

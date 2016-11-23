@@ -1,3 +1,9 @@
+---
+title: "French Note"
+permalink: /paper/frenchNote/
+excerpt: "Note about all the grammars and words."
+modified: 2016-11-23 09:27:39
+---
 | Table   | Je     | Tu     | il/elle | Nous      | Vous     | ils/elles |
 | :------ | :----- | :----- | ------- | --------- | -------- | --------- |
 | aimer   | aime   | aimes  | aime    | aimons    | aimez    | aiment    |
@@ -6,14 +12,14 @@
 
 ---
 
-| aller   | vais | vas  | va   | allons   | allez  | ils/elles |
-| ------- | ---- | ---- | ---- | -------- | ------ | --------- |
-| avoir   | ai   | as   | a    | avons    | avez   | vont      |
-| être    | suis | es   | est  | sommes   | êtes   | sont      |
-| faire   | fais | fais | fait | faissons | faites | font      |
-| vouloir | veux | veux | veut | voulons  | voulez | voulent   |
-| pouvoir | peux | peux | peut | pouvons  | pouvez | pouvent   |
-| devoir  | dois | dois | doit | devons   | devez  | devent    |
+| aller   | vais | vas  | va   | allons   | allez  | vont    |
+| ------- | ---- | ---- | ---- | -------- | ------ | ------- |
+| avoir   | ai   | as   | a    | avons    | avez   | ils ont |
+| être    | suis | es   | est  | sommes   | êtes   | sont    |
+| faire   | fais | fais | fait | faissons | faites | font    |
+| vouloir | veux | veux | veut | voulons  | voulez | voulent |
+| pouvoir | peux | peux | peut | pouvons  | pouvez | pouvent |
+| devoir  | dois | dois | doit | devons   | devez  | devent  |
 
 ---
 
@@ -122,8 +128,8 @@ Le conditionnel
 |                                 |                            |              |
 |                                 |                            |              |
 |                                 |                            |              |
-|                                 |                            |              |
-|                                 |                            |              |
+| a les                           | aux                        |              |
+| a le                            | au                         |              |
 
 ### note
 
@@ -131,3 +137,157 @@ Le conditionnel
 - 1997
   - mille 9 cent 97
   - 19 cent 97
+
+faim-hungry
+
+soif-thirsty
+
+commander-make a order
+
+demander a quelqun = ask
+
+copieux-filling
+
+addition-bill
+
+kir-champagne
+
+bouteille-bottle
+
+canard-duck
+
+champignon-mushroom
+
+a point-medium
+
+bien cuit-well done
+
+saignant-rare
+
+crudites[f]-raw vegetable
+
+escargot-snail
+
+frites[f]-fries
+
+entree-starter
+
+plat du jour-dish of the day
+
+oignon-onion
+
+poulet-chicken
+
+lait[f]-milk
+
+tarte-馅饼，派
+
+pomme-apple
+
+sel[m]-salt
+
+melange-mixture
+
+jus-juice
+
+relever-restore
+
+ajoutr-add
+
+ail-garlic
+
+poivre-pepper
+
+au souper-a la souper-at dinner
+
+biere-beer
+
+filet de boeuf sauce poivre
+
+grillee-toast烤
+
+andouillette 里昂大香肠
+
+oeuf-egg
+
+coq au vin红葡萄酒焖子鸡
+
+Crème brûléevava法式炖蛋a la vanille香草味的
+
+assiette de crudites-a plate of vegetable
+
+crêpe 可丽饼 flambee火焰的grand
+
+Grand Marnier-一种制作甜点的酒
+
+tartelette-奶油水果小馅饼
+
+fraise-strawberry
+
+eau mineral-mineral water
+
+vin de table餐酒
+
+offal 内脏 abats
+
+blanche-white
+
+boisson 饮料 drink boisson gazeuse汽水
+
+| Physique(with etre)        | cheveux m.头发(with avoir)    | yeux n.m.pl 眼睛(with avoir) oeil眼睛 a l'oeil 免费的 |
+| -------------------------- | --------------------------- | ---------------------------------------- |
+| jeune<>age                 | gris=grey                   | bleu,noir=black,vert=绿，青                 |
+| grand<>petit               | longs\courts\mi-longs 长短，中等 | marron栗色                                 |
+| maigre=skinny              | frises.pl=curly             | noisette浅褐色                              |
+| costaud壮，坚固的               | raides.pl=straight          | lunettes=glasses                         |
+| blond(e)金黄roux红色的rousse(f) | ondules.pl=波浪的              | lentilles.pl雀斑                           |
+| brun(e)褐色，咖啡色              |                             |                                          |
+| chauve=bald                |                             |                                          |
+| barbe胡子f.                  |                             |                                          |
+
+mettre=put
+
+autre-other
+
+viande f-meat
+
+un verre glass
+
+un morceau=cube
+
+une tranche de pain=a slice of bread
+
+l'huile=oil
+
+le saucisson=sausage
+
+parfait=perfect
+
+devant le gare=station
+
+sortir = come out
+
+une soeur=sister
+
+une cravate=tie
+
+un tatouage=tatoo
+
+bouche=mouth
+
+nose=nez
+
+ensemble=together
+
+tell=dire
+
+leave=laisser un message
+
+fois =time 次
+
+coupe=高脚杯=globet
+
+en 代替some of it=du,de la,de l',des.placed in front of verb
+
+- quelle cuisson?
+- bien cuit
