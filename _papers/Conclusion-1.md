@@ -69,6 +69,28 @@ Python内建的filter() 函数用于过滤序列。
 
 Python内置的sorted() 函数就可以对list进行排序：
 
+## Iterable and Iterator
+### Iterable 可迭代对象
+可以用于for循环。
+判断：isinstance(unknown,Iterable) True可迭代，False反之。
+### Iterator 迭代器
+可以用于for循环，也可以不断调用next()返回下一个值的。
+
+### 转换
+把list、dict、str等Iterable变成Iterator可以使用iter()函数
+
+## Decorator
+```python
+def log(func):
+    def wrapper(*args,**kw):
+        print("FFSJ")
+        return func(*args,**kw)
+    return wrapper //替换了vow函数为wrapper函数
+
+@log
+def vow():
+    print('I love you!')
+```
 ## Something Trivial
 isinstance(dict1,dict) = type(dict1) == dict
 
@@ -154,4 +176,61 @@ isinstance(dict1,dict) = type(dict1) == dict
 
 可见oct 函数 可将 任意进制的数 转换成 8进制的。
 
-### Page1-71 廖学峰python3教程
+## functools.partial
+
+```python
+>>> import functools
+>>> int2 = functools.partial(int, base=2)
+>>> int2('1000000')
+64
+>>> int2('1010101')
+85
+```
+
+所以，简单总结`functools.partial`的作用就是，把一个函数的某些参数给固定住（也就是设置默认值），返回一个新的函数，调用这个新函数会更简单。
+
+# module
+
+### how to write a module.py
+
+```python
+#!/usr/bin/env python3 //让文件可以直接在unix系统上运行
+# -*- coding: utf-8 -*-  //编码utf-8
+
+' a test module '  //第一个字符串默认为注释
+
+__author__ = 'Jake Ming' //your signature
+```
+
+### if "\_\_name__"="\_\_main\_\_":test()
+
+当文件于命令行中运行的时候，运行test()
+
+而当通过import引入的时候不会运行。
+
+### 作用域
+
+正常的函数和变量名是公开的（public），可以被直接引用，比如：`abc`，`x123`，`PI`等；
+
+类似`__xxx__`这样的变量是特殊变量，可以被直接引用，但是有特殊用途，比如上面的`__author__`，`__name__`就是特殊变量，`hello`模块定义的文档注释也可以用特殊变量`__doc__`访问，我们自己的变量一般不要用这种变量名；
+
+类似`_xxx`和`__xxx`这样的函数或变量就是非公开的（private），不应该被直接引用，比如`_abc`，`__abc`等；
+
+之所以我们说，private函数和变量“不应该”被直接引用，而不是“不能”被直接引用，是因为Python并没有一种方法可以完全限制访问private函数或变量，但是，从编程习惯上不应该引用private函数或变量。
+
+## 面向对象编程——Object Oriented Programming
+
+Class--instance
+
+数据封装、继承和多态是面向对象的三大特点
+
+### 类的声明
+
+`class Student(object):`类名通常是大写的。object表明从哪个父类继承下来的，通常如果没有合适的继承类，就使用object类，这是所有的类都会继承的类。
+
+### 访问限制
+
+- 以__开头的变量被视为私有(private),python将变量的名字修改为 _{{class-name}}\_name,所以在外部更改name会创建新的变量name，因为name属性已经改名。
+- 以_开头的变量可以从外部访问，但请不要这么做。
+- \__name__的以双下划线开头结尾的为特殊变量，可以直接访问。
+

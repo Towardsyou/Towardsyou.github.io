@@ -31,7 +31,7 @@ modified: 2016-8-17 10:49:48
     3.  anchor——**E W S N NW等8个位置（即上下左右对齐）**
     4.  expand是否随外框改变尺寸
 2.  grid()
-                  **以网格方式排列，以row,column表示坐标(从0起) 。sticky =默认居中（e,w,s,n）**
+                   **以网格方式排列，以row,column表示坐标(从0起) 。sticky =默认居中（e,w,s,n）**
 3.  place()
     1.  relx,rely **对齐点相对位置**
     2.  relwidth,relheight **相对父组件的宽度和高度**
@@ -79,10 +79,10 @@ Lb.insert(position,item)
 **position 从0最后一个位置是END**
 
 
-~~~python
+```python
 for item in ['a','b','c']:
 	Lb.insert(END,item)
-~~~
+```
 Lb.delete()提供确定位置，或是起始位置，结束位置。
 Lb.delete(ACTIVE)表示当前选中的
 
@@ -93,26 +93,26 @@ height属性，规定显示的行数（默认是10）
 支持的滚动条的对象有x,yscrollcommand对象
 首先创建一个滚动条
 
-~~~python
+```python
 sb = Scroballbar(root)
 sb.pack(side=RIGHT,fill=Y)
-~~~
+```
 
 再将滚动条添加
-~~~python
+```python
 Lb  = Listbox(root,yscrollcommand=sb.set)#Listbox跟着Scrollbar动
 sb.config(command=Lb.yview)#Scrollbar动Listbar也动
-~~~
+```
 
 #### 另一种滚动条Scale
 Scale滚动可以调节精度
-~~~python
+```python
 s = Scale(root,from_=0,to=10,orient=HORIZONTAL,\
 tickinterval=5,\ # 每隔5格显示一个刻度
 resolution=5,\ #向下挪一下走5格
 length=200 #长度200个像素
 )
-~~~
+```
 
 ### Text
 
@@ -126,28 +126,28 @@ text.insert(INSERT,'content') #INSERT即为光标位置
 text.insert(END,'content')
 ```
 
-~~~python
+```python
 b1 = button(text,text='点我点我',command=commmand)
 #在text中插入button，button的root要换为text
 text.window_create(INSERT,window=b1)
-~~~
+```
 
-~~~python
+```python
 #插入一张图片
 photo = PhotoImage(file='file_name')
 text.image_create(END,image=photo)
-~~~
+```
 
 ##### mark and tag
 
 #### canvas
-~~~puyhon
+```puyhon
 c = Canvas(root,width,height)
 c.create_line(0,0,100,100,fill='colour',width=宽度)
 c.create_rectangle()
 c.create_oval() #为相同参数矩形的内切椭圆
 c.create_polygon(points,outline='color',fill='color')#points为点元组
-~~~
+```
 #### 空字符串表示透明
 
 ### Menu
@@ -182,15 +182,15 @@ c.create_polygon(points,outline='color',fill='color')#points为点元组
 
 3.  askyesno()
 
-              **以上按下确定返回True,Otherwise False**
+               **以上按下确定返回True,Otherwise False**
 
 4.  askquestion()
 
-              **返回yes or no**、
+               **返回yes or no**、
 
 5.  showerror(),showinfo(),showwarning()
 
-              **返回ok表示用户点击了是**
+               **返回ok表示用户点击了是**
 
 ### filedialog #也是一个子包
 
