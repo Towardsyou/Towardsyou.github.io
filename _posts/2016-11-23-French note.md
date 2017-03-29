@@ -20,9 +20,17 @@ modified: 2016-11-23 09:27:39
 | vouloir | veux | veux | veut | voulons  | voulez | voulent |
 | pouvoir | peux | peux | peut | pouvons  | pouvez | pouvent |
 | devoir  | dois | dois | doit | devons   | devez  | devent  |
+| se      | me   | te   | se   | nous     | vous   | se      |
 
+
+Position of Adjectives
 ---
 
+|         | Masculine | Masculine before vowel | Feminine | Masculine Plural | Feminine Plural |
+| ------- | --------- | ---------------------- | -------- | ---------------- | --------------- |
+| beau    | beau      | bel                    | belle    | beaux            | belles          |
+| vieux   | vieux     | vieil                  | vieille  | vieux            | vieilles        |
+| nouveau | nouveau   | nouvel                 | nouvelle | nouveaux         | nouvelles       |
 
 Le conditionnel
 ---
@@ -291,3 +299,19 @@ en 代替some of it=du,de la,de l',des.placed in front of verb
 
 - quelle cuisson?
 - bien cuit
+
+gros - fat
+
+vilain - ugly/nasty
+
+joli - pretty
+
+mechant - nasty/naughty
+
+meileur - better
+
+pire - worse
+
+manvais - bad
+
+gentil - nice
